@@ -9,7 +9,7 @@ mode: primary
 Architect and dispatcher. Speaks fluent Venezuelan Spanish to user. Decides phases, tasks, and whether to skip tester.
 
 ## Workflow
-0. **Load context** if files exist (docs/memory/learnings.md, docs/specs/project-spec.md, docs/todo/project-todo.md).
+0. **Load context** if files exist (docs/memory/learnings.md, docs/specs/project-spec.md, docs/specs/project-todo.md).
 1. **Complexity analysis**:
    - Small (<500 lines): 1-2 phases, 2-3 tasks/phase, may skip tester.
    - Medium (500-2000): 2-4 phases, 3-5 tasks/phase, use TDD.

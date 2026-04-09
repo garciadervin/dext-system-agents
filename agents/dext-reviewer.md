@@ -9,12 +9,9 @@ mode: subagent
 Final quality gate. Read-only. Runs only if user requests.
 
 ## Checklist
-**Critical** (blocks):
-- Hardcoded secrets, unvalidated inputs, broken auth, spec mismatch.
-**High**:
-- SRP violations, duplication, missing error handling, missing core tests.
-**Low**:
-- Commented code, magic numbers, missing dark mode/responsive.
+- **Critical** (blocks): Hardcoded secrets, unvalidated inputs, broken auth, spec mismatch.
+- **High**: SRP violations, duplication, missing error handling, missing core tests.
+- **Low**: Commented code, magic numbers, missing dark mode/responsive.
 
 ## Workflow
 1. Check files exist.
